@@ -10,5 +10,5 @@ http.createServer(function(req, res) {
     '<div id="content"><p>The teams in Group D for Euro 2012 are:</p><ul><li>England</li><li>France</li><li>Sweden</li><li>Ukraine</li></ul></div>' + 
     '\n\n');
   res.end();
-}).listen(8888, '127.0.0.1');
+}).listen(8888);
 console.log('Server running at http://127.0.0.1:8888');
